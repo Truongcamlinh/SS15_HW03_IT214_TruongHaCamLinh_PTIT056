@@ -1,7 +1,5 @@
 # SS15_HW03 - Choreography Saga đặt chỗ qua Kafka
 
-**Sinh viên:** Trương Hà Cẩm Linh - **Mã sinh viên:** PTIT056
-
 ## 1. Mục tiêu
 
 Dự án mô phỏng quy trình đặt chỗ bằng Choreography Saga. Các service chỉ trao đổi sự kiện qua Kafka, hoàn toàn không gọi HTTP trực tiếp lẫn nhau. HTTP chỉ được dùng ở cửa vào của `booking-service` để người dùng tạo yêu cầu.
