@@ -1,0 +1,2 @@
+rootProject.name = 'ss15-hw03-choreography-saga'
+include 'common-events', 'booking-service', 'payment-service', 'seat-service', 'notification-service'
